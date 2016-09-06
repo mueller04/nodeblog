@@ -1,0 +1,27 @@
+h1 {
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+#blog-title {
+    font-size: 12px;
+    line-height: 6px;
+}
+
+#blog-entry {
+    text-align: left;
+}
+
+#blog-body {
+    margin-top: 30px;
+}
+
+#image-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 0px;
+    font-size: 10px;
+}
+
+
+

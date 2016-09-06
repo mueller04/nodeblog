@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 a {
@@ -8,7 +9,8 @@ a {
 }
 
 #contact-about {
-  text-align: center;
+  padding: 0px;
+  margin-top: 5px;
 }
 
 #contact-about h1 {
@@ -17,4 +19,11 @@ a {
 
 #contact-about p {
   font-size: 20px;
+  text-decoration: none;
 }
+
+#contact-about a {
+  text-decoration: none;
+  font-size: 30px;
+}
+

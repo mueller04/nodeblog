@@ -2,5 +2,46 @@ extends layout
 
 block content
 
-  h1= title
-  p Welcome to #{title}
+    head
+        link(rel='stylesheet', href='/stylesheets/blog.css')
+    body
+    h1= title
+
+    div#blog-entry
+        div#blog-title
+            h2 Making a Site Using Node/Express
+            p September 6, 2016
+        div#blog-body
+            p Making a site using Node/Express is easy.  I'll take you through how I setup this site.
+
+            h3 1. IDE
+            p Using Webstorm, choose the skeleton for node/express.
+
+            h3 2. Use an html renderer
+            p I use Pug (formerly Jade).
+
+            a(href='https://github.com/pugjs/pug' alt='Pug on Github') https://github.com/pugjs/pug
+
+            p Install the package using package.json, and rename the views to .pug files.
+            div#image-block
+                p package.json
+                img(src='/images/blog_for_express/package.json_for_pug.png' alt='packge.json_pug_setup')
+
+            p switch the view engine in app.js
+            div#image-block
+                p app.js
+                img(src='/images/blog_for_express/appjs_pug_setup.png' alt='appjs pug setup')
+
+            p write your views!
+            div#image-block
+                p header.pug
+                img(src='/images/blog_for_express/pug.png' alt='pug file')
+
+            h3 3. Handle your routing
+            p Update index.js to handle routes to your views.
+            div#image-block
+                p index.js
+                img(src='/images/blog_for_express/index.png' alt='index.js')
+
+            h3 4. You're set
+            p Use the run script in your package.json to run your website.  The default is port 3000 which you will see in bin/www.
