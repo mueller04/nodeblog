@@ -8,6 +8,10 @@ h1 {
     line-height: 6px;
 }
 
+#blog-title h2 {
+    font-size: 30px;
+}
+
 #blog-entry {
     text-align: left;
 }
