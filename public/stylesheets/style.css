@@ -6,3 +6,15 @@ body {
 a {
   color: #00B7FF;
 }
+
+#contact-about {
+  text-align: center;
+}
+
+#contact-about h1 {
+  font-size: 40px;
+}
+
+#contact-about p {
+  font-size: 20px;
+}
