@@ -1,6 +1,8 @@
 extends layout
-
 block content
-    div#contact-about
-        h1= title
-        p I created this site to help developers
+    head
+        script(src='/javascripts/about.js')
+    body
+        div#contact-about
+            h1= title
+            p I created this site to help developers

@@ -16,7 +16,6 @@ router.get('/about', function(req, res, next) {
 })
 
 router.get('/contact', function(req, res, next) {
-    console.log(mailtoemail);
     res.render('contact', {title: 'Contact',
         email: email,
         mailtoemail: mailtoemail });

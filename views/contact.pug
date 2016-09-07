@@ -1,6 +1,8 @@
 extends layout
-
 block content
-    div#contact-about
-        h1= title
-        a(href='mailto:mikemuellerware@gmail.com') #{email}
+    head
+        script(src='/javascripts/contact.js')
+    body
+        div#contact-about
+            h1= title
+            a(href='mailto:mikemuellerware@gmail.com') #{email}
