@@ -4,7 +4,9 @@ block content
 
   h1.
     #{title}
-
-  ul
-    each entry in articles
-      li=entry
+  div
+    ul
+      each entry in articles
+        li=entry.title
+        p=entry.body
+        p ----------------------
