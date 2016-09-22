@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "seed; node ./bin/www",
     "build-dev": "node buildScripts/copyJavascriptLibraries.js './node_modules/jquery/dist/jquery.min.js' './public/javascripts/lib/jquery.min.js'"
   },
   "dependencies": {
@@ -20,7 +20,9 @@
     "serve-favicon": "~2.3.0",
     "mongoose":"4.6.0",
     "body-parser":"1.15.2",
-    "method-override":"2.3.6"
+    "method-override":"2.3.6",
+    "node-mongo-seeds":"2.3.0"
+    
   },
   "devDependencies": {
     "fs-extra": "^0.30.0"

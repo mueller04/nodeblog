@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/nodeblog",
+	  "dev": "localhost/nodeblog",
+	"prod": "localhost/nodeblog"
+}
